@@ -14,7 +14,8 @@ venv/
 .vscode/
 .idea/
 *.swp
-.claude/settings.local.json
+.claude/
+PLAN.md
 
 # OS
 .DS_Store
