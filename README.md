@@ -218,7 +218,6 @@ rag-ops/
     faiss_index/          Persisted FAISS vectors (gitignored)
   DESIGN.md              Architectural decisions
   ARCHITECTURE.md         Module responsibilities + data flow
-  PLAN.md                Implementation plan (9 milestones, 28 tasks)
   Dockerfile             Multi-stage Python 3.11 build
   docker-compose.yml      App + Langfuse + Postgres + Redis
 ```
@@ -238,7 +237,7 @@ ruff check --fix . && ruff format .
 python scripts/generate_corpus.py --num-docs 10000 --seed 42
 ```
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for design decisions and [PLAN.md](PLAN.md) for the implementation roadmap.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for module responsibilities and [DESIGN.md](DESIGN.md) for architectural decisions.
 
 ---
 
