@@ -1,0 +1,40 @@
+[project]
+name = "rag-ops"
+version = "0.1.0"
+description = "Your private data, made intelligent. Production-safe RAG with built-in observability, evaluation, and cost tracking — not a demo, a system."
+requires-python = ">=3.11"
+authors = [{name = "Pranav Saravanan", email = "pranavss722@gmail.com"}]
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.34",
+    "langchain>=0.3",
+    "langchain-community>=0.3",
+    "faiss-cpu>=1.9",
+    "langfuse>=2.0",
+    "ragas>=0.2",
+    "openai>=1.60",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-anyio>=0.0.0",
+    "httpx>=0.28",
+    "ruff>=0.9",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*", "scripts*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 99
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "S", "B", "A", "C4", "SIM"]
+ignore = ["S101", "S603", "S607", "S311", "S110", "N806"]
+per-file-ignores = {"scripts/generate_eval_set.py" = ["E501"], "app/main.py" = ["E402"]}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
