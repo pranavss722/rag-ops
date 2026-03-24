@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo "Installing package..."
+pip install -e . --quiet
+
 echo "Generating 100-doc corpus..."
 python scripts/generate_corpus.py --num-docs 100 --seed 42
 
