@@ -13,6 +13,22 @@
 
 ---
 
+## 🚀 Live Demo
+
+**[The Dugout — Football Intelligence Platform](https://rag-ops-production.up.railway.app)**
+
+> Ask anything about football tactics, managers, World Cup history,
+> player philosophy, and more.
+
+| | |
+|---|---|
+| **API** | https://rag-ops-production.up.railway.app |
+| **Interactive UI** | https://rag-ops-production.up.railway.app/ |
+| **API Docs** | https://rag-ops-production.up.railway.app/docs |
+| **Health** | https://rag-ops-production.up.railway.app/health |
+
+---
+
 ## Architecture
 
 ### Offline: Ingestion Pipeline
@@ -175,6 +191,8 @@ Evaluated on 50 synthetic Q&A pairs using [RAGAS](https://docs.ragas.io/) (10K d
 
 **Interpreting these scores:** The high faithfulness (0.87) confirms the pipeline does not hallucinate -- answers are grounded in retrieved context. Context precision and answer relevancy are low because the synthetic corpus contains template-generated text, not real technical definitions. When the model retrieves chunks that don't contain a real answer, it correctly responds "the context does not contain enough information" rather than fabricating one. This is the grounding guardrail working as designed. With a real-world corpus, these scores would improve significantly while faithfulness would remain high.
 
+> **Live demo answers:** The deployed system correctly answers questions about Pep Guardiola's tactical philosophy (5 principles of positional play), the 1970 World Cup final (Brazil 4-1 Italy, Carlos Alberto's goal), Bill Shankly's philosophy, and more — all grounded in the knowledge base with source citations.
+
 ---
 
 ## Tech Stack
@@ -200,11 +218,13 @@ Evaluated on 50 synthetic Q&A pairs using [RAGAS](https://docs.ragas.io/) (10K d
 ```
 rag-ops/
   app/
-    main.py              FastAPI endpoints (/query, /stats, /health)
+    main.py              FastAPI endpoints (/query, /stats, /health, /)
     ingestion.py          Document loading, chunking, FAISS index building
     retrieval.py          Query embedding + vector search + result schema
     generation.py         Prompt construction + LLM call + response schema
     tracing.py            Langfuse spans, cost calculation, pricing table
+    static/
+      index.html          The Dugout — interactive football chat UI
   scripts/
     generate_corpus.py    Synthetic technical corpus generator (seeded)
     ingest.py             End-to-end ingestion CLI (load -> chunk -> embed -> save)
