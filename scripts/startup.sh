@@ -1,13 +1,10 @@
-#!/bin/bash
+﻿#!/bin/bash
 set -e
 
 echo "Installing package..."
 pip install -e . --quiet
 
-echo "Fetching Wikipedia articles (hardcoded files already in repo)..."
-python scripts/generate_football_corpus.py --wiki-only
-
-echo "Building FAISS index..."
+echo "Building FAISS index from knowledge base..."
 python scripts/ingest.py
 
 echo "Starting API..."
