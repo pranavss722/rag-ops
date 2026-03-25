@@ -17,6 +17,10 @@
 
 **[The Dugout — Football Intelligence Platform](https://rag-ops-production.up.railway.app)**
 
+
+<img width="3806" height="1882" alt="Screenshot 2026-03-24 233436" src="https://github.com/user-attachments/assets/b04da568-6eb3-435f-8952-b9da55309007" />
+
+
 > Ask anything about football tactics, managers, World Cup history,
 > player philosophy, and more.
 
