@@ -1,5 +1,6 @@
 """FastAPI application entry point for the RAG Pipeline."""
 
+import os
 import time
 from pathlib import Path
 
@@ -8,6 +9,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from pydantic import BaseModel
@@ -17,6 +20,14 @@ from app.retrieval import search
 from app.tracing import calculate_cost
 
 app = FastAPI(title="RAG Pipeline", version="0.1.0")
+
+if os.path.exists("app/static"):
+    app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
+
+@app.get("/")
+def root():
+    return FileResponse("app/static/index.html")
 
 INDEX_DIR = Path("data/faiss_index")
 
