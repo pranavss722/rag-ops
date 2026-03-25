@@ -21,8 +21,11 @@ PLAN.md
 .DS_Store
 Thumbs.db
 
-# Data
-data/corpus/
+# Data — only track the 7 hardcoded football knowledge files
+data/corpus/wiki_*.txt
+data/corpus/doc_*.txt
+data/corpus/manifest.jsonl
+data/corpus/failed_articles.txt
 data/faiss_index/
 data/eval_set.jsonl
 !data/.gitkeep

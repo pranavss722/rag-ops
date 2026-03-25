@@ -1,0 +1,166 @@
+# Football Tactical Encyclopedia
+
+## Positions
+
+### Goalkeeper (GK / Portero / Torwart / Gardien)
+The last line of defence. Wears a distinct kit. Only player who may handle the ball inside their own penalty area. Modern goalkeepers are expected to be comfortable with the ball at their feet ("sweeper-keeper") and to act as a passing outlet during build-up play. Key attributes: shot-stopping, aerial command, distribution, communication, positioning.
+
+### Centre-Back (CB / Central / Innenverteidiger / Défenseur central)
+Positioned centrally in defence, typically in pairs or threes. Responsible for marking opposing strikers, winning aerial duels, and initiating build-up play. Modern CBs must be comfortable playing out from the back under pressure. Key attributes: heading, tackling, positioning, composure on the ball.
+
+### Full-Back (RB/LB / Lateral / Außenverteidiger / Arrière latéral)
+Positioned on either flank of the defensive line. Modern full-backs are expected to contribute offensively, overlapping wingers and delivering crosses. In Pep Guardiola's system, they often invert into midfield positions. Key attributes: pace, stamina, crossing, defensive awareness.
+
+### Wing-Back (RWB/LWB)
+A hybrid full-back/winger role used in 3-5-2 and 3-4-3 formations. Wing-backs cover the entire flank, requiring exceptional stamina. They must provide width in attack while tracking back to form a back five in defence. Key attributes: engine, crossing, positional intelligence, 1v1 defending.
+
+### Sweeper (Libero)
+A free-roaming defender behind the defensive line. Popularised by Franz Beckenbauer at Bayern Munich. The libero reads the game, mops up loose balls, and carries the ball forward to start attacks. Largely extinct in modern football due to the offside rule changes, but the concept lives on in ball-playing centre-backs.
+
+### Defensive Midfielder (CDM / Pivote / Sechser / Sentinelle)
+Sits in front of the defence, shielding the back line and breaking up opposition attacks. The "destroyer" type (e.g., Claude Makélélé, N'Golo Kanté) prioritises ball-winning. The "regista" type (e.g., Andrea Pirlo, Sergio Busquets) prioritises passing and orchestrating play. Key attributes: interceptions, passing, tactical intelligence, positioning.
+
+### Central Midfielder (CM / Interior / Achter / Milieu central)
+Box-to-box players who link defence and attack. Expected to contribute in both phases. Modern CMs must press, recover possession, carry the ball, and create chances. Key attributes: passing range, stamina, vision, tackling. Examples: Steven Gerrard, Patrick Vieira, Luka Modrić.
+
+### Mezzala
+An Italian term for a central midfielder who drifts wide, operating in the "half-spaces" between the centre and the flank. Used extensively in 3-5-2 systems. The mezzala creates numerical superiority in wide areas and arrives late in the box for goalscoring opportunities. Key attributes: dribbling, late runs, positional awareness.
+
+### Attacking Midfielder (CAM / Enganche / Zehner / Meneur de jeu)
+The classic "number 10" position. Operates between the opposition's midfield and defensive lines. Responsible for creating chances, playing through-balls, and linking midfield to attack. The role has evolved: pure playmakers are rarer, replaced by pressing forwards who can also create. Key attributes: vision, passing, dribbling, shooting.
+
+### Trequartista
+An Italian term for a free-roaming attacking midfielder or second striker. The trequartista has total creative freedom, drifting across the pitch to find pockets of space. Think Francesco Totti, Roberto Baggio, or Dennis Bergkamp. Key attributes: technical excellence, vision, unpredictability.
+
+### Winger (RW/LW / Extremo / Flügelspieler / Ailier)
+Wide attacking players who provide width, stretch defences, and deliver crosses or cut inside to shoot. Traditional wingers hug the touchline (e.g., Ryan Giggs). Inverted wingers play on their "wrong" side to cut inside onto their stronger foot (e.g., Arjen Robben). Key attributes: pace, dribbling, crossing, shooting.
+
+### Striker / Centre-Forward (ST/CF / Delantero / Stürmer / Avant-centre)
+The primary goalscorer. Types include: target man (physical, holds up play), poacher (predatory in the box), complete forward (combines all attributes). The role has evolved significantly — modern strikers must press from the front and contribute to build-up play. Key attributes: finishing, movement, hold-up play, pressing.
+
+### False 9
+A centre-forward who drops deep into midfield, dragging centre-backs out of position and creating space for teammates to exploit. Lionel Messi under Pep Guardiola at Barcelona is the most famous example. The role requires exceptional technical ability and football intelligence.
+
+### Second Striker (SS / Seconda Punta / Media Punta)
+Operates behind the main striker, linking play and arriving late in the box. Different from a number 10 in that the second striker is more goal-oriented and makes more runs in behind. Key attributes: movement, finishing, link-up play.
+
+### Regista
+A deep-lying playmaker who orchestrates the team's passing from a deep midfield position. The regista drops between or alongside the centre-backs to receive the ball and dictate the tempo. Andrea Pirlo is the archetypal regista. Key attributes: passing range, vision, composure, tactical intelligence.
+
+### Carrilero
+A central midfielder who shuttles up and down a narrow lateral channel ("carriles" = lanes in Spanish). Unlike a mezzala, the carrilero maintains discipline, rarely straying wide. Provides defensive cover and maintains the team's shape. Key attributes: stamina, positioning, discipline.
+
+## Formations
+
+### 4-4-2
+The most traditional formation. Two banks of four with two strikers. Simple, balanced, and effective. Dominated English football for decades. Strengths: defensive solidity, clear structure, good width. Weaknesses: can be outnumbered in midfield by 4-3-3 or 4-5-1.
+
+### 4-3-3
+Three forwards with a central striker flanked by two wingers. The midfield triangle can point forward (one holding, two advanced) or backward (two holding, one advanced). Barcelona under Cruyff and Guardiola popularised the 4-3-3 with a single pivot. Strengths: width, pressing structure. Weaknesses: exposes full-backs if wingers don't track back.
+
+### 3-5-2 / 3-4-1-2
+Three centre-backs with two wing-backs providing width. Often transitions to a 5-3-2 defensively. Antonio Conte's Chelsea (2016-17) demonstrated its effectiveness in the Premier League. Strengths: defensive solidity with three CBs, numerical superiority in midfield. Weaknesses: relies heavily on wing-back fitness.
+
+### 4-2-3-1
+Dominant formation of the 2000s and 2010s. A double pivot protects the defence while an attacking trio operates behind a lone striker. Mourinho's Real Madrid and Germany's 2014 World Cup-winning team used this effectively. Strengths: balance, defensive security, creative freedom for the 10. Weaknesses: lone striker can be isolated.
+
+### 4-1-4-1
+A variation of 4-5-1 with a single defensive midfielder shielding the back four. The two central midfielders have license to advance. Defensive and counter-attacking shape. Strengths: compact, hard to break down. Weaknesses: limited attacking options if the midfielders don't push forward.
+
+### 3-4-3
+Three at the back with a midfield four and three forwards. Aggressive and attack-minded. Requires technically excellent centre-backs. Conte's Chelsea switch to 3-4-3 in 2016 transformed their season. Strengths: numerical superiority in attack, width from wing-backs. Weaknesses: vulnerable to counter-attacks through wide areas.
+
+### WM Formation
+Herbert Chapman's innovation at Arsenal in the 1930s. Named for the W-M shape players formed: three defenders, two half-backs forming the M; two inside-forwards and two wingers forming the W, with a centre-forward at the apex. Revolutionary for its time, it was the dominant system until the 1950s.
+
+## Tactical Concepts
+
+### Tiki-Taka
+Short-passing, possession-based style associated with Barcelona and Spain (2008-2012). Emphasises ball retention, positional play, and patient build-up. Players constantly move to create passing triangles. The ball moves faster than any player can run. Critics argue it can become sterile if not paired with decisive vertical passes.
+
+### Gegenpressing (Counter-pressing)
+Immediately pressing to recover the ball after losing possession, rather than falling back into shape. Jürgen Klopp popularised this at Borussia Dortmund and Liverpool. The idea: the moment of transition is when the opponent is most disorganised. Press within 6 seconds of losing the ball.
+
+### Total Football (Totaalvoetbal)
+Dutch philosophy pioneered by Rinus Michels at Ajax and the Netherlands national team in the 1970s. Any outfield player can take over the role of any other player on the team. Requires extraordinary technical ability and tactical intelligence from every player. The pitch becomes fluid; positions become interchangeable.
+
+### Catenaccio
+Italian defensive system meaning "door-bolt." Uses a sweeper (libero) behind a tight defensive line. Associated with Helenio Herrera's Inter Milan in the 1960s. Often mischaracterised as purely negative — Herrera's Inter were devastating on the counter-attack. The philosophy: defend deep, protect the lead, strike on the break.
+
+### High Press
+Pressing the opposition high up the pitch, often in their own defensive third. Aims to force errors and win the ball close to the opponent's goal. Requires coordinated team pressing triggers (e.g., a backward pass, a poor touch). Risk: if beaten, large spaces open behind the press.
+
+### Low Block
+A deep defensive shape where both banks of players sit near their own penalty area. Aims to deny space, remain compact, and frustrate the opposition. Often paired with counter-attacking football. Tony Pulis, Diego Simeone, and José Mourinho are associated with effective low-block strategies.
+
+### Positional Play (Juego de Posición)
+Guardiola's adaptation of Cruyff's principles. The pitch is divided into zones; players occupy specific zones to maintain spacing and create passing options. The aim is to create numerical superiority in key zones. Principles: width, depth, support, mobility.
+
+### Counter-Attacking Football
+Deliberately conceding possession to the opposition, sitting deep, and striking rapidly when the ball is won. Requires fast, direct players who can transition quickly. Real Madrid under Mourinho (2011-12) and Leicester City under Claudio Ranieri (2015-16) are prime examples.
+
+### Pressing Triggers
+Specific situations that signal the team to press. Common triggers: a backward pass, a poor first touch, a switch of play to a weaker player, the ball entering a wide zone. Teams train specific pressing triggers to ensure coordinated pressure rather than individual chasing.
+
+### Half-Spaces
+The zones between the centre of the pitch and the wide areas. Exploiting half-spaces has become a key tactical concept in modern football. Players who drift into these areas are difficult to mark — they fall between the jurisdiction of the full-back and centre-back.
+
+### Build-Up Play
+The process of advancing the ball from defence into attacking areas. Modern build-up involves the goalkeeper and centre-backs passing through the opposition's press. Patterns include: goalkeeper to centre-back, centre-back splitting wide, full-backs pushing high, midfielder dropping to receive.
+
+### Transition (Transición)
+The moment a team switches between attack and defence (defensive transition) or defence and attack (attacking transition). The speed and quality of transitions often determine match outcomes. The best teams are devastating in transition moments.
+
+### Set Pieces
+Dead-ball situations: corners, free-kicks, throw-ins, penalties, goal-kicks. Modern teams dedicate significant training time to set pieces. Teams like Brentford and Brighton have used data-driven set-piece routines to gain a competitive advantage.
+
+### Zonal Marking vs Man Marking
+Two approaches to defending. Zonal marking: players defend specific areas of the pitch. Man marking: each defender is assigned a specific opponent. Most modern teams use a hybrid — zonal marking in open play with man-marking responsibilities at set pieces.
+
+## Football Terminology in Multiple Languages
+
+### English - Spanish - Portuguese - German - French - Italian - Dutch
+Goal - Gol - Gol - Tor - But - Gol/Rete - Doelpunt
+Offside - Fuera de juego - Impedimento - Abseits - Hors-jeu - Fuorigioco - Buitenspel
+Corner kick - Saque de esquina - Escanteio - Ecke/Eckball - Corner - Calcio d'angolo - Hoekschop
+Penalty - Penalti - Pênalti - Elfmeter - Penalty - Rigore/Calcio di rigore - Strafschop
+Free kick - Tiro libre - Falta - Freistoß - Coup franc - Calcio di punizione - Vrije trap
+Throw-in - Saque de banda - Arremesso lateral - Einwurf - Touche - Rimessa laterale - Inworp
+Foul - Falta - Falta - Foul - Faute - Fallo - Overtreding
+Yellow card - Tarjeta amarilla - Cartão amarelo - Gelbe Karte - Carton jaune - Cartellino giallo - Gele kaart
+Red card - Tarjeta roja - Cartão vermelho - Rote Karte - Carton rouge - Cartellino rosso - Rode kaart
+Dribble - Regate - Drible - Dribbling - Dribble - Dribbling - Dribbel
+Header - Cabezazo - Cabeçada - Kopfball - Tête - Colpo di testa - Kopbal
+Volley - Volea - Voleio - Volleyschuss - Volée - Tiro al volo - Volley
+
+### Arabic: هدف (hadaf = goal), تسلل (tasallul = offside), ركلة جزاء (raklat jaza' = penalty)
+### Japanese: ゴール (gōru = goal), オフサイド (ofusaido = offside), PK (pī kē = penalty kick)
+### Turkish: Gol, Ofsayt, Penaltı, Korner, Faul, Sarı kart, Kırmızı kart
+### Russian: Гол, Офсайд, Пенальти, Угловой, Фол, Жёлтая карточка, Красная карточка
+### Polish: Gol, Spalony (offside), Rzut karny (penalty), Róg (corner), Faul
+### Greek: Γκολ, Οφσάιντ, Πέναλτι, Κόρνερ, Φάουλ, Κίτρινη κάρτα, Κόκκινη κάρτα
+### Hindi: गोल (goal), ऑफ़साइड (offside), पेनल्टी (penalty)
+### Swahili: Bao (goal), Upande wa mbele (offside), Penalti (penalty)
+
+## Famous Commentary Phrases
+
+"GOOOOOL!" — Latin American commentary tradition, especially Andrés Cantor
+"It's a goal! It's a goal!" — English commentary standard
+"Tor! Tor! Tor!" — German commentary tradition
+"And Solskjær has won it!" — Clive Tyldesley, 1999 Champions League Final
+"They think it's all over... it is now!" — Kenneth Wolstenholme, 1966 World Cup Final
+"Agüeroooooo!" — Martin Tyler, 2012 Premier League title decider
+"The impossible has happened!" — Common in dramatic moments
+"He could have hit it with his nose and it would have gone in." — Commentary cliché for tap-ins
+"A worldie!" — Modern British slang for a spectacular goal
+"He's sent the goalkeeper the wrong way." — Penalty commentary
+"What a ball! What a finish!" — Generic celebration
+"Unbelievable, Jeff!" — Chris Kamara, Soccer Saturday
+"The magic of the cup!" — FA Cup commentary cliché
+"They've pulled one back!" — Consolation goal commentary
+"AND IT'S LIVE!" — Jeff Stelling, Soccer Saturday opening
+"Welcome to the theater of dreams." — Old Trafford commentary
+"This is Anfield." — Liverpool pre-match reference
+"Golazo!" — Spanish for a brilliant goal
+"Mamma mia!" — Italian exclamation for spectacular play
+"What a hit, son! What a hit!" — Andy Gray, Sky Sports

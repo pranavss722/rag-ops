@@ -1,0 +1,84 @@
+# Football Analytics Revolution
+
+## Expected Goals (xG)
+
+Expected Goals (xG) is the metric that has most transformed how we understand football. xG assigns a probability (between 0 and 1) to every shot, representing the likelihood of that shot resulting in a goal based on historical data.
+
+Factors that influence xG include: distance from goal, angle to goal, body part used (foot, head, other), type of assist (through ball, cross, cutback), game state, whether the shot followed a dribble, number of defenders between the shooter and goal, goalkeeper position.
+
+A penalty has an xG of approximately 0.76. A shot from the centre of the box, 8 yards out, with no defenders blocking, might have an xG of 0.30. A shot from 30 yards has an xG of approximately 0.03.
+
+Teams that consistently outperform their xG (scoring more goals than expected) are considered clinically efficient. Teams that underperform are likely to regress. Over a full season, xG is one of the most reliable predictors of future performance — more reliable than actual goals scored.
+
+Key insight: xG strips away the noise of luck and finishing variance to reveal the true quality of chances created and conceded. A team creating 2.0 xG per game but only scoring 1.0 is likely to improve. A team creating 0.8 xG but scoring 1.5 is riding luck.
+
+## Expected Assists (xA)
+
+xA measures the likelihood that a given pass will result in an assist. It evaluates the quality of the chance created by the passer, independent of whether the receiver scores. A through ball that puts a striker one-on-one with the goalkeeper has a high xA; a cross into a crowded penalty area has a lower xA.
+
+xA is valuable for evaluating creative players: a midfielder who creates high-xA chances is genuinely dangerous, even if his striker keeps missing. Over time, xA identifies the true creative force in a team.
+
+## Passes Per Defensive Action (PPDA)
+
+PPDA measures pressing intensity. It counts the number of passes a team allows the opposition to make before making a defensive action (tackle, interception, or foul) in the opposition's half.
+
+Lower PPDA = more intense pressing. A team with a PPDA of 6 is pressing aggressively; a team with a PPDA of 15 is sitting deep. Liverpool under Klopp regularly posted PPDA values around 7-9. Burnley under Sean Dyche were typically 14-16.
+
+PPDA has become a standard metric for evaluating tactical approach: it tells you objectively whether a team is pressing high or sitting deep, removing the subjectivity of the eye test.
+
+## Progressive Passes and Progressive Carries
+
+A progressive pass moves the ball significantly closer to the opponent's goal. Specifically, a pass that moves the ball at least 10 yards toward the goal (or any pass into the penalty area) counts as progressive. Progressive carries work similarly but measure ball carries (dribbles) rather than passes.
+
+These metrics identify players who advance the ball effectively — the line-breakers, the creators, the ball-progressors who move the ball from safe areas into dangerous ones. Trent Alexander-Arnold, for instance, consistently ranks among the top full-backs in Europe for progressive passes, reflecting his role as Liverpool's primary creative outlet from deep.
+
+## How Liverpool Used Data Under Klopp
+
+Liverpool's data revolution under sporting director Michael Edwards and head of research Ian Graham transformed the club from mid-table mediocrity to Champions League and Premier League champions.
+
+Key decisions driven by data:
+1. Signing Mohamed Salah (data identified him as significantly undervalued at Roma)
+2. Signing Andy Robertson (the most productive left-back in Scotland, available for £8m)
+3. Signing Virgil van Dijk (data confirmed he was the best ball-playing centre-back available)
+4. Selling Philippe Coutinho to Barcelona for £142m and reinvesting in Alisson and Van Dijk
+5. Identifying Fabinho as the ideal defensive midfielder for Klopp's system
+
+Liverpool's approach combined traditional scouting with sophisticated data modelling. They didn't just look at goals and assists — they measured pressing intensity, ball recoveries, progressive actions, and spatial data to identify players who would fit Klopp's gegenpressing system.
+
+## How Manchester City Use Data Under Guardiola
+
+Manchester City's analytics department is one of the most advanced in world football. Under the direction of the City Football Group's data science team, City use tracking data, event data, and custom metrics to inform tactical decisions, recruitment, and in-game adjustments.
+
+Key aspects of City's data approach:
+1. Positional data: City track player positions 25 times per second using GPS and optical tracking. This allows them to measure spacing, compactness, and positional discipline — all central to Guardiola's positional play philosophy.
+2. Expected Threat (xT): City use expected threat models to evaluate how much a player's actions increase the probability of a goal. This measures the value of every pass, carry, and dribble — not just the ones that end in shots.
+3. Pressing models: City's data team quantifies pressing effectiveness, measuring not just how often players press but how effectively they do so — press success rate, subsequent ball recovery location, and chances created from turnovers.
+4. Set-piece analysis: City dedicate significant analytical resources to set pieces, identifying opponent vulnerabilities from corners, free-kicks, and throw-ins.
+
+## Brighton and Brentford Analytics Models
+
+Brighton & Hove Albion and Brentford represent two of the most data-driven clubs in English football.
+
+Brighton, under technical director David Weir and their data team, have built a recruitment model that consistently identifies undervalued players. Their approach involves buying players for their underlying performance data (expected metrics, ball progression, pressing) rather than their output (goals, assists). Players like Moisés Caicedo, Marc Cucurella, and Alexis Mac Allister were signed for modest fees and sold for enormous profits.
+
+Brentford's model, pioneered by owner Matthew Benham (who also owns a sports analytics company), focuses on statistical arbitrage in the transfer market. Brentford buy players whose data profiles suggest they are undervalued by the market, develop them, and sell for a profit. Their set-piece routines are data-driven — Brentford have been one of the most effective set-piece teams in the Premier League.
+
+## StatsBomb Open Data Revolution
+
+StatsBomb, founded by Ted Knutson in 2017, has transformed football analytics by providing detailed event data that goes far beyond traditional statistics. Their open data — freely available datasets from specific competitions — has democratised football analytics, allowing researchers, journalists, and fans to work with professional-grade data.
+
+StatsBomb's innovations include: freeze-frame data (showing the position of every player at the moment of a shot), detailed pressure events, 360-degree data showing the full context of every action, and custom metrics like shot-creating actions and goal-creating actions.
+
+## How Transfermarkt Values Are Calculated
+
+Transfermarkt, the German football database, has become the standard reference for player market values. Their system combines algorithmic estimation with crowdsourced community input. Factors include: age, contract length, performance data, league strength, recent transfer fees for comparable players, and market demand.
+
+The values are not transfer fees — they are estimates of fair market value. Actual transfer fees can be significantly higher (demand exceeds supply) or lower (player has a short contract, wants to leave, or is out of favour). Transfermarkt values correlate strongly with actual transfer fees but are systematically lower for elite players, whose fees include a premium.
+
+## Modern Scouting with Wyscout and InStat
+
+Wyscout and InStat are the two dominant platforms for professional football scouting. Both provide comprehensive video and data for thousands of leagues worldwide, allowing scouts and analysts to evaluate players remotely before committing to in-person scouting trips.
+
+Wyscout offers event data (passes, shots, tackles, etc.), video clips tagged to each event, and comparison tools that allow analysts to rank players across leagues. InStat provides similar functionality with a focus on Eastern European and Asian markets.
+
+The modern scouting workflow: (1) data screening — use analytics to identify a long list of candidates matching specific performance criteria, (2) video analysis — watch tagged clips on Wyscout/InStat to evaluate technical quality, decision-making, and physical attributes, (3) in-person scouting — attend matches to assess intangibles: personality, effort, body language, (4) final evaluation — combine all sources to make a recommendation.

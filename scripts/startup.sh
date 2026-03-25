@@ -4,8 +4,8 @@ set -e
 echo "Installing package..."
 pip install -e . --quiet
 
-echo "Generating football corpus..."
-python scripts/generate_football_corpus.py
+echo "Fetching Wikipedia articles (hardcoded files already in repo)..."
+python scripts/generate_football_corpus.py --wiki-only
 
 echo "Building FAISS index..."
 python scripts/ingest.py

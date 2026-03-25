@@ -1586,6 +1586,38 @@ def _write_hardcoded_files(corpus_dir: Path) -> list[dict]:
     return entries
 
 
+_HARDCODED_FILENAMES = [
+    "football_wisdom.txt",
+    "tactical_glossary.txt",
+    "competition_histories.txt",
+    "world_cup_complete_history.txt",
+    "manager_philosophies.txt",
+    "analytics_deep_dives.txt",
+    "football_languages.txt",
+]
+
+
+def _read_existing_hardcoded(corpus_dir: Path) -> list[dict]:
+    """Build manifest entries from hardcoded files already on disk."""
+    entries: list[dict] = []
+    for filename in _HARDCODED_FILENAMES:
+        path = corpus_dir / filename
+        if not path.exists():
+            logger.warning("Expected hardcoded file missing: %s", path)
+            continue
+        text = path.read_text(encoding="utf-8")
+        word_count = len(text.split())
+        entries.append({
+            "doc_id": filename.replace(".txt", ""),
+            "title": filename.replace(".txt", "").replace("_", " ").title(),
+            "category": "hardcoded",
+            "word_count": word_count,
+            "generated_at": datetime.now(UTC).isoformat(),
+        })
+        logger.info("Found %s (%d words)", filename, word_count)
+    return entries
+
+
 # ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
@@ -1641,15 +1673,28 @@ def fetch_wikipedia_articles(
     return manifest, failed, skipped
 
 
-def generate_football_corpus(output_dir: str | Path | None = None) -> None:
-    """Generate the complete football corpus."""
+def generate_football_corpus(
+    output_dir: str | Path | None = None,
+    wiki_only: bool = False,
+) -> None:
+    """Generate the complete football corpus.
+
+    Args:
+        output_dir: Where to write corpus files. Defaults to data/corpus/.
+        wiki_only: If True, skip hardcoded file generation (they're already in the repo)
+                   and build manifest from existing hardcoded files + fresh wiki fetches.
+    """
     default_path = Path(__file__).resolve().parent.parent / "data" / "corpus"
     corpus_dir = Path(output_dir) if output_dir else default_path
     corpus_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1. Write hardcoded files
-    logger.info("Writing hardcoded knowledge files...")
-    hardcoded_entries = _write_hardcoded_files(corpus_dir)
+    # 1. Hardcoded files
+    if wiki_only:
+        logger.info("--wiki-only: reading existing hardcoded files from repo...")
+        hardcoded_entries = _read_existing_hardcoded(corpus_dir)
+    else:
+        logger.info("Writing hardcoded knowledge files...")
+        hardcoded_entries = _write_hardcoded_files(corpus_dir)
 
     # 2. Fetch Wikipedia articles
     logger.info("Fetching Wikipedia articles (10 threads, 1s delay between batches)...")
@@ -1694,5 +1739,10 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate association football corpus")
     parser.add_argument("--output-dir", type=str, default=None, help="Output directory")
+    parser.add_argument(
+        "--wiki-only",
+        action="store_true",
+        help="Skip hardcoded file generation (use files already in repo)",
+    )
     args = parser.parse_args()
-    generate_football_corpus(output_dir=args.output_dir)
+    generate_football_corpus(output_dir=args.output_dir, wiki_only=args.wiki_only)

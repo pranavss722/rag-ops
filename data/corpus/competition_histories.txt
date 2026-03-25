@@ -1,0 +1,66 @@
+# Competition Histories
+
+## FIFA World Cup Winners (1930-2022)
+
+1930: Uruguay (host: Uruguay) — beat Argentina 4-2 in final
+1934: Italy (host: Italy) — beat Czechoslovakia 2-1 (a.e.t.)
+1938: Italy (host: France) — beat Hungary 4-2
+1950: Uruguay (host: Brazil) — beat Brazil 2-1 (final group stage)
+1954: West Germany (host: Switzerland) — beat Hungary 3-2 ("Miracle of Bern")
+1958: Brazil (host: Sweden) — beat Sweden 5-2 (17-year-old Pelé scores twice)
+1962: Brazil (host: Chile) — beat Czechoslovakia 3-1
+1966: England (host: England) — beat West Germany 4-2 (a.e.t.) ("They think it's all over")
+1970: Brazil (host: Mexico) — beat Italy 4-1 (widely considered greatest team ever)
+1974: West Germany (host: West Germany) — beat Netherlands 2-1
+1978: Argentina (host: Argentina) — beat Netherlands 3-1 (a.e.t.)
+1982: Italy (host: Spain) — beat West Germany 3-1 (Paolo Rossi 6 goals)
+1986: Argentina (host: Mexico) — beat West Germany 3-2 (Maradona's tournament)
+1990: West Germany (host: Italy) — beat Argentina 1-0 (Brehme penalty)
+1994: Brazil (host: USA) — beat Italy on penalties (Baggio misses decisive kick)
+1998: France (host: France) — beat Brazil 3-0 (Zidane heads twice)
+2002: Brazil (host: Japan/South Korea) — beat Germany 2-0 (Ronaldo 8 goals)
+2006: Italy (host: Germany) — beat France on penalties (Zidane headbutt)
+2010: Spain (host: South Africa) — beat Netherlands 1-0 (a.e.t., Iniesta goal)
+2014: Germany (host: Brazil) — beat Argentina 1-0 (a.e.t., Götze goal)
+2018: France (host: Russia) — beat Croatia 4-2 (Mbappé breakthrough)
+2022: Argentina (host: Qatar) — beat France on penalties (Messi's crowning glory)
+
+World Cup top scorers all-time: Miroslav Klose (16), Ronaldo (15), Gerd Müller (14), Just Fontaine (13), Pelé (12)
+
+## UEFA Champions League / European Cup Winners (1956-2024)
+
+1956: Real Madrid, 1957: Real Madrid, 1958: Real Madrid, 1959: Real Madrid, 1960: Real Madrid, 1961: Benfica, 1962: Benfica, 1963: AC Milan, 1964: Inter Milan, 1965: Inter Milan, 1966: Real Madrid, 1967: Celtic, 1968: Manchester United, 1969: AC Milan, 1970: Feyenoord, 1971: Ajax, 1972: Ajax, 1973: Ajax, 1974: Bayern Munich, 1975: Bayern Munich, 1976: Bayern Munich, 1977: Liverpool, 1978: Liverpool, 1979: Nottingham Forest, 1980: Nottingham Forest, 1981: Liverpool, 1982: Aston Villa, 1983: Hamburg, 1984: Liverpool, 1985: Juventus, 1986: Steaua București, 1987: Porto, 1988: PSV Eindhoven, 1989: AC Milan, 1990: AC Milan, 1991: Red Star Belgrade, 1992: Barcelona, 1993: Marseille, 1994: AC Milan, 1995: Ajax, 1996: Juventus, 1997: Borussia Dortmund, 1998: Real Madrid, 1999: Manchester United, 2000: Real Madrid, 2001: Bayern Munich, 2002: Real Madrid, 2003: AC Milan, 2004: Porto, 2005: Liverpool, 2006: Barcelona, 2007: AC Milan, 2008: Manchester United, 2009: Barcelona, 2010: Inter Milan, 2011: Barcelona, 2012: Chelsea, 2013: Bayern Munich, 2014: Real Madrid, 2015: Barcelona, 2016: Real Madrid, 2017: Real Madrid, 2018: Real Madrid, 2019: Liverpool, 2020: Bayern Munich, 2021: Chelsea, 2022: Real Madrid, 2023: Manchester City, 2024: Real Madrid
+
+Most wins: Real Madrid (15), AC Milan (7), Bayern Munich (6), Liverpool (6), Barcelona (5)
+
+## Premier League Champions (1992-2024)
+
+1993: Manchester United, 1994: Manchester United, 1995: Blackburn Rovers, 1996: Manchester United, 1997: Manchester United, 1998: Arsenal, 1999: Manchester United, 2000: Manchester United, 2001: Manchester United, 2002: Arsenal, 2003: Manchester United, 2004: Arsenal (Invincibles — unbeaten), 2005: Chelsea, 2006: Chelsea, 2007: Manchester United, 2008: Manchester United, 2009: Manchester United, 2010: Chelsea, 2011: Manchester United, 2012: Manchester City (Agüero moment), 2013: Manchester United, 2014: Manchester City, 2015: Chelsea, 2016: Leicester City (5000-1 miracle), 2017: Chelsea, 2018: Manchester City (100 points), 2019: Manchester City, 2020: Liverpool, 2021: Manchester City, 2022: Manchester City, 2023: Manchester City (Treble), 2024: Manchester City (4 in a row)
+
+Most titles: Manchester United (13), Manchester City (8), Chelsea (5), Arsenal (3)
+
+## La Liga Champions (selected 1929-2024)
+
+Most titles: Real Madrid (36), Barcelona (27), Atletico Madrid (11), Athletic Bilbao (8), Valencia (6)
+
+## Serie A Champions (selected 1898-2024)
+
+Most titles: Juventus (36), Inter Milan (20), AC Milan (19), Genoa (9), Torino (7), Bologna (7)
+
+## Bundesliga Champions (1963-2024)
+
+Most titles: Bayern Munich (33), Borussia Dortmund (5), Borussia Mönchengladbach (5), Werder Bremen (4), Bayer Leverkusen (1)
+
+## Copa América Winners (1916-2024)
+
+Most titles: Argentina (16), Uruguay (15), Brazil (9), Chile (2), Paraguay (2), Peru (2), Colombia (1)
+
+## Copa Libertadores Winners (1960-2024)
+
+Most titles: Independiente (7), Boca Juniors (6), Peñarol (5), River Plate (4), Estudiantes (4), Santos (3), São Paulo (3), Nacional (3), Olimpia (3), Grêmio (3), Flamengo (3)
+
+## UEFA European Championship Winners (1960-2024)
+
+1960: Soviet Union, 1964: Spain, 1968: Italy, 1972: West Germany, 1976: Czechoslovakia, 1980: West Germany, 1984: France, 1988: Netherlands, 1992: Denmark, 1996: Germany, 2000: France, 2004: Greece, 2008: Spain, 2012: Spain, 2016: Portugal, 2020: Italy, 2024: Spain
+
+Most wins: Germany/Spain (3 each), France/Italy (2 each)
